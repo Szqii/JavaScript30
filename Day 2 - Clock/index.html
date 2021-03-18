@@ -9,12 +9,29 @@
     <link rel="stylesheet" href="./style/default.css" id="theme-css" />
   </head>
   <body>
-    <div class="theme-list">
-      <div class="theme green" id="green" style="background-color: green"></div>
-      <div class="theme red" id="red" style="background-color: red"></div>
-      <div class="theme blue" id="blue" style="background-color: blue"></div>
-      <div class="theme bw" id="bw" style="background: rgb(255,255,255);
-      background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(0,0,0,1) 100%);"></div>
+    <div class="menu">
+      <i class="fas fa-volume-mute fa-2x" id="mute"></i>
+      <div class="theme-list">
+        <div
+          class="theme green"
+          id="green"
+          style="background-color: #a2ffad"
+        ></div>
+        <div class="theme red" id="red" style="background-color: #ffc3c3"></div>
+        <div class="theme blue" id="blue" style="background-color: #79ceff"></div>
+        <div
+          class="theme bw"
+          id="bw"
+          style="
+            background: rgb(255, 255, 255);
+            background: linear-gradient(
+              90deg,
+              rgba(255, 255, 255, 1) 0%,
+              rgba(0, 0, 0, 1) 100%
+            );
+          "
+        ></div>
+      </div>
     </div>
     <div class="clock-container">
       <div class="clock">
@@ -25,6 +42,12 @@
         </div>
       </div>
     </div>
+
+    <audio autoplay="true" src="./assets/tick-sound.mp3" id="tick"></audio>
   </body>
   <script src="main.js"></script>
+  <script
+    src="https://kit.fontawesome.com/160edd8076.js"
+    crossorigin="anonymous"
+  ></script>
 </html>

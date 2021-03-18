@@ -2,6 +2,10 @@ body {
   background: url(../assets/red_background.svg) top center;
 }
 
+i {
+  color: #ffc3c3;
+}
+
 .clock {
   border: 25px solid #ffc3c3;
   -webkit-box-shadow: 0 0 30px black;

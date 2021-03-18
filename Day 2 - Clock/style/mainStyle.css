@@ -53,17 +53,25 @@ body {
   height: 12px;
 }
 
-.theme-list {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
+.mute {
   padding-top: 10px;
 }
 
-.theme-list .theme {
+.menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 10px 50px;
+}
+
+.menu i {
+  cursor: pointer;
+}
+
+.menu .theme {
   width: 30px;
   height: 30px;
   margin-right: 10px;
@@ -72,9 +80,10 @@ body {
           box-shadow: 0 0 10px black;
   -webkit-transition: 0.2s;
   transition: 0.2s;
+  cursor: pointer;
 }
 
-.theme-list .theme:hover {
+.menu .theme:hover {
   -webkit-transform: scale(1.1);
           transform: scale(1.1);
   -webkit-transform: translateY(-5px);

@@ -3,6 +3,10 @@ body {
   background-size: auto;
 }
 
+i {
+  color: #a2ffad;
+}
+
 .clock {
   border: 25px solid #a2ffad;
   -webkit-box-shadow: 0 0 30px black;
