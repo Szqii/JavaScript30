@@ -1,0 +1,14 @@
+body {
+    background: url(../assets/blue_background.svg) top center;
+  }
+  .clock {
+    border: 25px solid #79ceff;
+    box-shadow: 0 0 30px black;
+    .hand {
+      background: black;
+    }
+    .sec-hand {
+      border: 3px solid black !important;
+    }
+  }
+  
